@@ -1,6 +1,1001 @@
-date,operator,city,duration_minutes,cause
-2026-11-01,Jio,Solapur,45,Power failure
-2026-11-02,Airtel,Pune,120,Fiber cut
-2026-11-03,Vi,Mumbai,30,Tower fault
-2026-11-04,Jio,Pune,60,Maintenance
-2026-11-05,BSNL,Solapur,200,Fiber cut
+date,hour,operator,city,duration_minutes,cause
+2026-01-01,23,BSNL,Mumbai,6,Fiber cut
+2026-01-01,20,Vi,Solapur,21,Congestion
+2026-01-01,5,Jio,Nashik,7,Congestion
+2026-01-01,21,Airtel,Hyderabad,105,Tower fault
+2026-01-02,0,BSNL,Delhi,226,Fiber cut
+2026-01-02,13,BSNL,Pune,57,Tower fault
+2026-01-03,18,Airtel,Nagpur,94,Power failure
+2026-01-03,19,Airtel,Bengaluru,268,Fiber cut
+2026-01-03,13,BSNL,Mumbai,283,Heavy rain
+2026-01-04,3,Vi,Nagpur,48,Tower fault
+2026-01-04,16,Vi,Bengaluru,35,Tower fault
+2026-01-04,15,Airtel,Delhi,115,Heavy rain
+2026-01-04,9,Airtel,Pune,45,Tower fault
+2026-01-05,21,Airtel,Delhi,37,Fiber cut
+2026-01-05,10,BSNL,Nashik,33,Heavy rain
+2026-01-05,5,Airtel,Delhi,17,Congestion
+2026-01-05,7,Jio,Mumbai,43,Tower fault
+2026-01-05,2,BSNL,Nashik,149,Power failure
+2026-01-06,19,BSNL,Nashik,52,Congestion
+2026-01-06,16,BSNL,Hyderabad,23,Congestion
+2026-01-06,18,BSNL,Nagpur,52,Maintenance
+2026-01-06,15,Vi,Hyderabad,52,Tower fault
+2026-01-06,19,Airtel,Mumbai,129,Fiber cut
+2026-01-07,23,Vi,Pune,71,Tower fault
+2026-01-07,9,Jio,Solapur,56,Power failure
+2026-01-08,20,Vi,Nashik,29,Maintenance
+2026-01-09,12,Airtel,Nashik,29,Tower fault
+2026-01-09,0,Vi,Delhi,44,Maintenance
+2026-01-10,4,Jio,Delhi,25,Maintenance
+2026-01-10,6,Vi,Delhi,100,Power failure
+2026-01-10,10,Vi,Hyderabad,129,Heavy rain
+2026-01-10,8,Vi,Hyderabad,70,Tower fault
+2026-01-10,22,Jio,Nashik,36,Maintenance
+2026-01-10,15,Jio,Mumbai,33,Tower fault
+2026-01-11,16,Jio,Nagpur,113,Tower fault
+2026-01-11,2,Jio,Pune,59,Maintenance
+2026-01-12,23,Jio,Nagpur,37,Heavy rain
+2026-01-12,10,Airtel,Nagpur,96,Tower fault
+2026-01-13,7,BSNL,Mumbai,159,Heavy rain
+2026-01-13,15,Vi,Mumbai,111,Fiber cut
+2026-01-13,20,Airtel,Hyderabad,177,Fiber cut
+2026-01-14,13,Jio,Delhi,137,Heavy rain
+2026-01-14,21,Jio,Nashik,56,Maintenance
+2026-01-14,8,Vi,Delhi,125,Power failure
+2026-01-14,20,Jio,Delhi,5,Tower fault
+2026-01-15,2,Jio,Mumbai,16,Maintenance
+2026-01-15,15,Airtel,Delhi,82,Power failure
+2026-01-16,12,BSNL,Pune,32,Maintenance
+2026-01-16,15,Airtel,Delhi,74,Fiber cut
+2026-01-16,23,BSNL,Nashik,120,Heavy rain
+2026-01-17,1,BSNL,Pune,31,Tower fault
+2026-01-17,4,Jio,Pune,28,Maintenance
+2026-01-17,8,Jio,Mumbai,73,Power failure
+2026-01-18,23,Airtel,Bengaluru,54,Power failure
+2026-01-19,5,Vi,Mumbai,38,Tower fault
+2026-01-19,17,Jio,Bengaluru,5,Fiber cut
+2026-01-19,12,Jio,Nagpur,47,Tower fault
+2026-01-19,14,Airtel,Mumbai,149,Power failure
+2026-01-20,19,Jio,Hyderabad,123,Power failure
+2026-01-20,20,Airtel,Pune,205,Fiber cut
+2026-01-20,17,Jio,Mumbai,86,Tower fault
+2026-01-21,18,Jio,Nagpur,44,Tower fault
+2026-01-21,20,BSNL,Nagpur,50,Maintenance
+2026-01-21,11,Vi,Mumbai,76,Tower fault
+2026-01-21,16,Airtel,Bengaluru,9,Fiber cut
+2026-01-21,17,Jio,Bengaluru,10,Congestion
+2026-01-22,11,BSNL,Mumbai,306,Fiber cut
+2026-01-22,19,Jio,Nashik,175,Fiber cut
+2026-01-22,18,Airtel,Nagpur,153,Fiber cut
+2026-01-22,22,BSNL,Pune,67,Tower fault
+2026-01-23,13,BSNL,Mumbai,50,Maintenance
+2026-01-23,13,Jio,Solapur,92,Power failure
+2026-01-23,9,BSNL,Hyderabad,83,Power failure
+2026-01-23,19,Vi,Pune,77,Power failure
+2026-01-23,2,BSNL,Delhi,188,Power failure
+2026-01-24,23,Airtel,Bengaluru,75,Power failure
+2026-01-25,20,BSNL,Pune,27,Congestion
+2026-01-25,13,Airtel,Pune,39,Maintenance
+2026-01-25,17,Airtel,Nashik,14,Maintenance
+2026-01-25,16,BSNL,Solapur,57,Tower fault
+2026-01-26,19,BSNL,Mumbai,106,Power failure
+2026-01-26,20,Airtel,Hyderabad,28,Maintenance
+2026-01-26,16,Airtel,Delhi,58,Tower fault
+2026-01-27,9,Airtel,Hyderabad,92,Power failure
+2026-01-27,4,Vi,Nagpur,46,Tower fault
+2026-01-27,6,Airtel,Hyderabad,104,Heavy rain
+2026-01-27,13,Jio,Mumbai,68,Power failure
+2026-01-28,16,Vi,Mumbai,189,Fiber cut
+2026-01-28,19,Airtel,Mumbai,205,Fiber cut
+2026-01-29,8,Airtel,Nagpur,60,Maintenance
+2026-01-29,11,Jio,Bengaluru,79,Power failure
+2026-01-30,17,Airtel,Nagpur,53,Fiber cut
+2026-01-30,23,Vi,Nashik,37,Maintenance
+2026-01-30,21,Vi,Bengaluru,98,Heavy rain
+2026-01-30,4,Airtel,Nagpur,41,Maintenance
+2026-01-31,6,Airtel,Nagpur,139,Heavy rain
+2026-01-31,18,BSNL,Nashik,98,Tower fault
+2026-01-31,23,Vi,Mumbai,99,Power failure
+2026-01-31,9,Jio,Bengaluru,164,Fiber cut
+2026-02-01,19,Airtel,Delhi,149,Heavy rain
+2026-02-01,17,Airtel,Bengaluru,27,Fiber cut
+2026-02-01,12,BSNL,Pune,55,Tower fault
+2026-02-02,12,Airtel,Pune,58,Power failure
+2026-02-02,17,Jio,Nashik,45,Maintenance
+2026-02-02,18,BSNL,Nagpur,208,Fiber cut
+2026-02-03,15,BSNL,Delhi,57,Tower fault
+2026-02-04,9,Jio,Delhi,69,Power failure
+2026-02-04,4,BSNL,Solapur,61,Power failure
+2026-02-04,0,BSNL,Pune,139,Power failure
+2026-02-04,3,Vi,Nashik,231,Fiber cut
+2026-02-05,2,Airtel,Hyderabad,62,Tower fault
+2026-02-05,23,BSNL,Pune,45,Maintenance
+2026-02-05,17,BSNL,Pune,111,Heavy rain
+2026-02-05,23,BSNL,Nagpur,289,Fiber cut
+2026-02-05,23,Airtel,Solapur,16,Congestion
+2026-02-05,22,Jio,Solapur,24,Congestion
+2026-02-05,22,Vi,Pune,177,Fiber cut
+2026-02-05,22,Vi,Solapur,59,Maintenance
+2026-02-06,2,Jio,Nashik,114,Heavy rain
+2026-02-06,3,Airtel,Bengaluru,28,Heavy rain
+2026-02-06,0,Vi,Solapur,227,Fiber cut
+2026-02-06,20,Airtel,Pune,90,Fiber cut
+2026-02-07,0,Jio,Nashik,77,Tower fault
+2026-02-07,14,Jio,Nagpur,31,Congestion
+2026-02-07,13,Vi,Hyderabad,31,Tower fault
+2026-02-07,10,Vi,Delhi,56,Tower fault
+2026-02-07,10,BSNL,Nashik,52,Power failure
+2026-02-08,14,Jio,Delhi,119,Power failure
+2026-02-08,7,Jio,Mumbai,48,Maintenance
+2026-02-08,19,BSNL,Delhi,166,Fiber cut
+2026-02-09,19,Airtel,Nagpur,155,Fiber cut
+2026-02-09,9,Vi,Delhi,84,Power failure
+2026-02-09,19,Vi,Nagpur,29,Tower fault
+2026-02-09,4,Airtel,Mumbai,134,Fiber cut
+2026-02-10,23,BSNL,Mumbai,6,Power failure
+2026-02-10,6,Airtel,Delhi,21,Congestion
+2026-02-10,16,BSNL,Nashik,6,Tower fault
+2026-02-11,15,BSNL,Bengaluru,193,Fiber cut
+2026-02-11,11,Vi,Delhi,97,Power failure
+2026-02-11,12,Airtel,Hyderabad,171,Power failure
+2026-02-11,18,Vi,Nagpur,23,Maintenance
+2026-02-12,15,Jio,Solapur,60,Maintenance
+2026-02-12,5,BSNL,Solapur,270,Fiber cut
+2026-02-13,4,Jio,Delhi,138,Power failure
+2026-02-14,10,Vi,Hyderabad,116,Heavy rain
+2026-02-14,2,Jio,Nashik,177,Fiber cut
+2026-02-15,12,Airtel,Bengaluru,130,Power failure
+2026-02-15,21,BSNL,Mumbai,53,Tower fault
+2026-02-15,7,Airtel,Bengaluru,70,Tower fault
+2026-02-16,20,BSNL,Mumbai,88,Tower fault
+2026-02-16,22,Airtel,Hyderabad,36,Maintenance
+2026-02-16,20,Vi,Delhi,99,Power failure
+2026-02-16,9,Vi,Nagpur,148,Heavy rain
+2026-02-17,13,Vi,Bengaluru,59,Tower fault
+2026-02-17,1,BSNL,Mumbai,87,Maintenance
+2026-02-17,2,Airtel,Nagpur,98,Power failure
+2026-02-18,17,Jio,Hyderabad,69,Power failure
+2026-02-18,22,Airtel,Hyderabad,75,Tower fault
+2026-02-18,0,Vi,Bengaluru,24,Maintenance
+2026-02-18,21,Vi,Bengaluru,46,Maintenance
+2026-02-18,16,BSNL,Nagpur,111,Tower fault
+2026-02-19,13,BSNL,Pune,133,Power failure
+2026-02-19,14,Jio,Delhi,132,Fiber cut
+2026-02-19,3,Jio,Solapur,95,Power failure
+2026-02-19,7,Jio,Bengaluru,144,Heavy rain
+2026-02-19,21,Jio,Delhi,217,Fiber cut
+2026-02-20,2,Airtel,Solapur,40,Maintenance
+2026-02-20,23,Airtel,Nagpur,42,Heavy rain
+2026-02-21,6,Vi,Nagpur,120,Power failure
+2026-02-21,9,BSNL,Nagpur,31,Congestion
+2026-02-21,18,Vi,Solapur,139,Fiber cut
+2026-02-22,21,BSNL,Nagpur,218,Power failure
+2026-02-22,13,Jio,Hyderabad,119,Fiber cut
+2026-02-22,18,Airtel,Hyderabad,76,Heavy rain
+2026-02-22,10,BSNL,Solapur,152,Power failure
+2026-02-24,20,Vi,Mumbai,103,Fiber cut
+2026-02-24,4,Vi,Bengaluru,210,Fiber cut
+2026-02-24,10,BSNL,Hyderabad,24,Congestion
+2026-02-24,5,Jio,Mumbai,44,Maintenance
+2026-02-24,22,Jio,Bengaluru,86,Power failure
+2026-02-25,15,Airtel,Nashik,51,Fiber cut
+2026-02-25,20,Airtel,Nagpur,37,Maintenance
+2026-02-26,11,Jio,Hyderabad,72,Power failure
+2026-02-26,21,Vi,Solapur,179,Fiber cut
+2026-02-26,13,Airtel,Hyderabad,179,Heavy rain
+2026-02-27,1,Jio,Nagpur,17,Congestion
+2026-02-27,17,BSNL,Delhi,72,Tower fault
+2026-02-27,9,BSNL,Nagpur,105,Tower fault
+2026-02-27,7,Vi,Pune,33,Maintenance
+2026-02-27,19,BSNL,Delhi,228,Fiber cut
+2026-02-28,16,Jio,Mumbai,111,Power failure
+2026-02-28,19,Airtel,Hyderabad,51,Maintenance
+2026-03-01,22,BSNL,Hyderabad,31,Congestion
+2026-03-01,11,Vi,Pune,37,Tower fault
+2026-03-01,21,Airtel,Nashik,268,Fiber cut
+2026-03-02,18,BSNL,Pune,72,Tower fault
+2026-03-02,20,BSNL,Nagpur,32,Congestion
+2026-03-02,20,Airtel,Pune,149,Fiber cut
+2026-03-02,10,Jio,Pune,92,Tower fault
+2026-03-03,0,BSNL,Nashik,193,Fiber cut
+2026-03-03,12,Jio,Mumbai,69,Maintenance
+2026-03-03,19,Airtel,Mumbai,52,Tower fault
+2026-03-04,10,Vi,Hyderabad,115,Power failure
+2026-03-04,19,Vi,Nagpur,39,Congestion
+2026-03-05,4,Vi,Mumbai,38,Maintenance
+2026-03-06,20,Airtel,Nashik,166,Power failure
+2026-03-06,19,Airtel,Mumbai,50,Heavy rain
+2026-03-06,5,Jio,Nashik,157,Fiber cut
+2026-03-06,6,Airtel,Bengaluru,95,Power failure
+2026-03-07,15,Jio,Hyderabad,81,Tower fault
+2026-03-08,15,Airtel,Hyderabad,9,Tower fault
+2026-03-08,22,BSNL,Pune,79,Power failure
+2026-03-08,0,BSNL,Solapur,48,Power failure
+2026-03-09,9,BSNL,Mumbai,46,Maintenance
+2026-03-09,8,BSNL,Hyderabad,257,Fiber cut
+2026-03-09,22,Airtel,Delhi,86,Fiber cut
+2026-03-10,12,Vi,Hyderabad,196,Fiber cut
+2026-03-11,21,Vi,Delhi,138,Power failure
+2026-03-11,23,Airtel,Nashik,55,Tower fault
+2026-03-11,3,Vi,Delhi,46,Maintenance
+2026-03-12,22,BSNL,Nagpur,185,Heavy rain
+2026-03-12,1,BSNL,Hyderabad,67,Maintenance
+2026-03-12,17,Jio,Bengaluru,88,Fiber cut
+2026-03-12,19,Vi,Mumbai,135,Power failure
+2026-03-12,6,Airtel,Bengaluru,63,Tower fault
+2026-03-12,22,Vi,Delhi,67,Tower fault
+2026-03-13,20,BSNL,Delhi,26,Maintenance
+2026-03-13,9,Airtel,Pune,15,Congestion
+2026-03-13,18,Jio,Bengaluru,46,Maintenance
+2026-03-13,19,BSNL,Bengaluru,13,Maintenance
+2026-03-13,22,Jio,Pune,121,Heavy rain
+2026-03-13,14,Vi,Mumbai,57,Maintenance
+2026-03-13,22,Vi,Solapur,132,Power failure
+2026-03-14,19,Jio,Nashik,88,Tower fault
+2026-03-15,3,Vi,Mumbai,91,Tower fault
+2026-03-15,18,Airtel,Mumbai,124,Fiber cut
+2026-03-15,20,BSNL,Nashik,111,Maintenance
+2026-03-16,9,Airtel,Mumbai,148,Power failure
+2026-03-16,22,Airtel,Nashik,25,Tower fault
+2026-03-16,19,BSNL,Pune,170,Power failure
+2026-03-17,17,BSNL,Hyderabad,185,Power failure
+2026-03-17,2,Airtel,Nagpur,78,Power failure
+2026-03-17,12,Vi,Hyderabad,19,Congestion
+2026-03-18,16,Vi,Pune,110,Power failure
+2026-03-18,16,BSNL,Solapur,214,Fiber cut
+2026-03-18,6,Jio,Nagpur,74,Tower fault
+2026-03-18,6,Vi,Bengaluru,44,Power failure
+2026-03-18,12,BSNL,Delhi,48,Maintenance
+2026-03-18,11,Airtel,Hyderabad,54,Tower fault
+2026-03-18,10,Vi,Hyderabad,191,Power failure
+2026-03-19,0,Airtel,Nagpur,55,Power failure
+2026-03-19,6,Airtel,Solapur,70,Heavy rain
+2026-03-20,9,BSNL,Nagpur,104,Heavy rain
+2026-03-20,6,Airtel,Mumbai,55,Tower fault
+2026-03-20,8,Jio,Nashik,77,Tower fault
+2026-03-20,7,Jio,Delhi,77,Heavy rain
+2026-03-20,6,Airtel,Mumbai,194,Heavy rain
+2026-03-21,22,Airtel,Bengaluru,25,Congestion
+2026-03-21,22,Vi,Bengaluru,34,Tower fault
+2026-03-21,3,Airtel,Nagpur,48,Congestion
+2026-03-21,16,Jio,Nagpur,28,Congestion
+2026-03-21,12,BSNL,Delhi,58,Maintenance
+2026-03-21,14,BSNL,Mumbai,163,Power failure
+2026-03-21,20,BSNL,Nagpur,65,Maintenance
+2026-03-22,14,Jio,Nagpur,191,Fiber cut
+2026-03-22,3,Airtel,Nashik,11,Maintenance
+2026-03-22,15,BSNL,Solapur,62,Power failure
+2026-03-23,23,Jio,Bengaluru,131,Fiber cut
+2026-03-23,13,Jio,Pune,9,Tower fault
+2026-03-23,18,Vi,Nashik,23,Congestion
+2026-03-24,16,BSNL,Nagpur,157,Power failure
+2026-03-24,4,Vi,Delhi,24,Maintenance
+2026-03-24,19,Airtel,Delhi,21,Congestion
+2026-03-25,23,Vi,Pune,48,Maintenance
+2026-03-26,2,Airtel,Pune,81,Fiber cut
+2026-03-26,15,Airtel,Pune,83,Power failure
+2026-03-27,23,Jio,Delhi,45,Power failure
+2026-03-27,23,Jio,Pune,30,Congestion
+2026-03-27,20,Airtel,Bengaluru,54,Heavy rain
+2026-03-27,8,Jio,Delhi,43,Maintenance
+2026-03-28,18,Airtel,Nagpur,46,Tower fault
+2026-03-28,17,Vi,Pune,47,Tower fault
+2026-03-28,19,Jio,Nagpur,69,Tower fault
+2026-03-28,17,Jio,Delhi,207,Fiber cut
+2026-03-28,5,Jio,Solapur,49,Tower fault
+2026-03-29,21,BSNL,Hyderabad,50,Tower fault
+2026-03-29,22,Jio,Bengaluru,41,Power failure
+2026-03-29,21,BSNL,Pune,27,Tower fault
+2026-03-30,20,BSNL,Bengaluru,178,Fiber cut
+2026-03-30,18,Vi,Delhi,21,Heavy rain
+2026-03-30,15,Vi,Hyderabad,68,Maintenance
+2026-03-30,12,Airtel,Nagpur,52,Maintenance
+2026-03-31,20,Airtel,Nashik,51,Heavy rain
+2026-03-31,13,Vi,Solapur,148,Heavy rain
+2026-03-31,15,Jio,Delhi,47,Tower fault
+2026-03-31,19,BSNL,Delhi,140,Tower fault
+2026-03-31,13,Vi,Hyderabad,86,Power failure
+2026-03-31,18,Airtel,Solapur,128,Fiber cut
+2026-04-01,22,Jio,Mumbai,150,Fiber cut
+2026-04-01,11,Jio,Hyderabad,48,Tower fault
+2026-04-01,19,Airtel,Delhi,33,Congestion
+2026-04-01,6,Jio,Solapur,18,Congestion
+2026-04-02,15,Jio,Nashik,35,Congestion
+2026-04-02,4,Vi,Bengaluru,145,Heavy rain
+2026-04-02,22,Airtel,Bengaluru,32,Congestion
+2026-04-02,18,Jio,Nagpur,46,Tower fault
+2026-04-03,23,Airtel,Delhi,75,Heavy rain
+2026-04-03,1,Vi,Hyderabad,95,Fiber cut
+2026-04-03,19,Jio,Nashik,79,Power failure
+2026-04-03,17,Airtel,Bengaluru,198,Fiber cut
+2026-04-03,5,Airtel,Delhi,177,Fiber cut
+2026-04-03,22,Vi,Delhi,41,Tower fault
+2026-04-04,12,Airtel,Nagpur,101,Fiber cut
+2026-04-05,9,Jio,Mumbai,153,Heavy rain
+2026-04-05,8,Vi,Delhi,278,Fiber cut
+2026-04-06,23,Jio,Bengaluru,9,Maintenance
+2026-04-06,14,BSNL,Pune,98,Power failure
+2026-04-06,6,Jio,Nashik,106,Power failure
+2026-04-06,16,Airtel,Delhi,71,Power failure
+2026-04-06,14,BSNL,Bengaluru,217,Fiber cut
+2026-04-07,21,Airtel,Solapur,49,Heavy rain
+2026-04-07,13,Vi,Solapur,17,Tower fault
+2026-04-07,4,BSNL,Nashik,76,Power failure
+2026-04-08,23,Vi,Solapur,245,Fiber cut
+2026-04-08,10,BSNL,Delhi,210,Fiber cut
+2026-04-08,2,BSNL,Pune,20,Tower fault
+2026-04-08,7,Jio,Nagpur,42,Tower fault
+2026-04-09,13,BSNL,Nagpur,113,Power failure
+2026-04-09,10,Vi,Nagpur,48,Fiber cut
+2026-04-10,10,Vi,Nashik,19,Congestion
+2026-04-10,12,Jio,Delhi,209,Heavy rain
+2026-04-10,15,Vi,Pune,75,Tower fault
+2026-04-10,10,Airtel,Nagpur,57,Maintenance
+2026-04-10,11,Airtel,Solapur,68,Heavy rain
+2026-04-10,5,Airtel,Nagpur,218,Fiber cut
+2026-04-10,17,Jio,Solapur,69,Tower fault
+2026-04-11,11,Vi,Bengaluru,157,Fiber cut
+2026-04-11,14,BSNL,Mumbai,182,Fiber cut
+2026-04-11,7,BSNL,Bengaluru,158,Power failure
+2026-04-12,3,Airtel,Bengaluru,158,Fiber cut
+2026-04-12,14,Jio,Bengaluru,144,Fiber cut
+2026-04-13,20,Jio,Delhi,55,Tower fault
+2026-04-13,15,Jio,Hyderabad,9,Tower fault
+2026-04-13,20,BSNL,Delhi,178,Power failure
+2026-04-13,10,Airtel,Solapur,56,Maintenance
+2026-04-13,9,Vi,Nagpur,117,Tower fault
+2026-04-14,21,BSNL,Delhi,279,Fiber cut
+2026-04-14,21,Jio,Nashik,107,Power failure
+2026-04-14,19,Airtel,Nagpur,89,Power failure
+2026-04-15,19,Airtel,Hyderabad,21,Congestion
+2026-04-16,19,BSNL,Delhi,16,Power failure
+2026-04-16,6,BSNL,Delhi,54,Maintenance
+2026-04-17,14,Airtel,Pune,76,Tower fault
+2026-04-18,19,BSNL,Solapur,87,Tower fault
+2026-04-18,13,Airtel,Solapur,117,Power failure
+2026-04-19,18,BSNL,Delhi,107,Power failure
+2026-04-19,22,BSNL,Bengaluru,29,Maintenance
+2026-04-19,21,Airtel,Solapur,155,Fiber cut
+2026-04-20,15,Vi,Pune,112,Power failure
+2026-04-20,18,Vi,Mumbai,185,Fiber cut
+2026-04-20,21,Airtel,Mumbai,69,Heavy rain
+2026-04-21,20,Airtel,Delhi,237,Fiber cut
+2026-04-21,23,Jio,Nashik,100,Power failure
+2026-04-21,17,Jio,Delhi,116,Heavy rain
+2026-04-22,20,Airtel,Delhi,33,Maintenance
+2026-04-22,15,BSNL,Hyderabad,53,Tower fault
+2026-04-22,22,BSNL,Delhi,171,Fiber cut
+2026-04-23,7,Jio,Pune,71,Maintenance
+2026-04-23,17,Jio,Solapur,62,Maintenance
+2026-04-23,19,Airtel,Nashik,46,Power failure
+2026-04-23,2,Jio,Pune,99,Power failure
+2026-04-23,22,Airtel,Mumbai,19,Maintenance
+2026-04-23,14,Airtel,Nashik,78,Power failure
+2026-04-24,20,Airtel,Bengaluru,135,Power failure
+2026-04-24,5,Jio,Solapur,105,Power failure
+2026-04-24,19,BSNL,Nagpur,136,Fiber cut
+2026-04-24,22,Airtel,Bengaluru,73,Power failure
+2026-04-24,8,BSNL,Nashik,84,Power failure
+2026-04-24,20,BSNL,Nashik,45,Congestion
+2026-04-25,19,Jio,Bengaluru,70,Power failure
+2026-04-25,6,Airtel,Delhi,74,Tower fault
+2026-04-26,21,BSNL,Mumbai,67,Maintenance
+2026-04-26,12,Jio,Hyderabad,44,Congestion
+2026-04-26,11,Vi,Nagpur,62,Maintenance
+2026-04-27,13,Vi,Nagpur,178,Fiber cut
+2026-04-27,16,Airtel,Bengaluru,34,Congestion
+2026-04-27,22,Jio,Pune,66,Tower fault
+2026-04-28,23,Vi,Nashik,46,Power failure
+2026-04-29,13,BSNL,Pune,158,Power failure
+2026-04-29,5,Vi,Nashik,160,Fiber cut
+2026-04-29,16,Jio,Pune,59,Maintenance
+2026-04-29,14,Jio,Pune,131,Heavy rain
+2026-04-29,17,Jio,Nashik,60,Tower fault
+2026-04-30,15,BSNL,Hyderabad,33,Power failure
+2026-04-30,11,BSNL,Nagpur,117,Tower fault
+2026-05-01,19,Airtel,Hyderabad,93,Power failure
+2026-05-01,18,Vi,Solapur,94,Tower fault
+2026-05-01,15,Airtel,Delhi,22,Tower fault
+2026-05-01,19,Jio,Pune,63,Power failure
+2026-05-02,10,BSNL,Hyderabad,91,Power failure
+2026-05-02,6,Jio,Solapur,15,Congestion
+2026-05-02,10,BSNL,Mumbai,94,Tower fault
+2026-05-02,19,Jio,Delhi,88,Heavy rain
+2026-05-03,17,Airtel,Hyderabad,83,Heavy rain
+2026-05-03,9,Vi,Nashik,64,Power failure
+2026-05-03,16,Vi,Nagpur,17,Fiber cut
+2026-05-03,15,Jio,Solapur,64,Power failure
+2026-05-03,16,BSNL,Mumbai,15,Congestion
+2026-05-04,22,BSNL,Nashik,75,Power failure
+2026-05-04,22,Airtel,Mumbai,10,Tower fault
+2026-05-04,20,Jio,Bengaluru,46,Tower fault
+2026-05-04,3,BSNL,Pune,78,Tower fault
+2026-05-05,11,Jio,Nashik,54,Power failure
+2026-05-05,1,BSNL,Bengaluru,105,Power failure
+2026-05-05,23,Jio,Bengaluru,93,Tower fault
+2026-05-05,16,Vi,Mumbai,16,Congestion
+2026-05-05,23,Airtel,Nagpur,85,Heavy rain
+2026-05-06,8,Vi,Solapur,42,Maintenance
+2026-05-06,6,Vi,Mumbai,116,Tower fault
+2026-05-07,14,Airtel,Bengaluru,114,Heavy rain
+2026-05-07,19,Airtel,Pune,66,Fiber cut
+2026-05-07,10,BSNL,Pune,83,Maintenance
+2026-05-08,19,BSNL,Hyderabad,66,Power failure
+2026-05-08,10,BSNL,Bengaluru,135,Heavy rain
+2026-05-08,22,BSNL,Delhi,133,Power failure
+2026-05-08,5,Jio,Nashik,64,Power failure
+2026-05-08,13,BSNL,Bengaluru,70,Power failure
+2026-05-08,23,BSNL,Hyderabad,104,Power failure
+2026-05-08,19,Airtel,Solapur,64,Fiber cut
+2026-05-09,21,Airtel,Nagpur,109,Heavy rain
+2026-05-11,14,Jio,Mumbai,51,Power failure
+2026-05-11,12,Vi,Hyderabad,96,Fiber cut
+2026-05-11,8,Airtel,Mumbai,68,Fiber cut
+2026-05-11,20,Airtel,Mumbai,220,Fiber cut
+2026-05-11,15,Airtel,Pune,163,Fiber cut
+2026-05-11,15,Jio,Mumbai,81,Power failure
+2026-05-11,12,Airtel,Bengaluru,56,Maintenance
+2026-05-13,22,Vi,Pune,39,Tower fault
+2026-05-13,20,BSNL,Hyderabad,170,Fiber cut
+2026-05-14,19,BSNL,Pune,218,Fiber cut
+2026-05-14,21,Vi,Mumbai,122,Power failure
+2026-05-14,21,Airtel,Solapur,65,Maintenance
+2026-05-14,12,Vi,Delhi,6,Maintenance
+2026-05-15,6,Jio,Hyderabad,18,Maintenance
+2026-05-15,17,Airtel,Delhi,140,Fiber cut
+2026-05-15,17,Jio,Nashik,114,Heavy rain
+2026-05-16,18,Vi,Nagpur,68,Tower fault
+2026-05-16,12,Jio,Mumbai,86,Power failure
+2026-05-16,23,Vi,Solapur,5,Tower fault
+2026-05-16,18,BSNL,Hyderabad,94,Tower fault
+2026-05-16,12,Jio,Hyderabad,80,Power failure
+2026-05-17,21,BSNL,Nashik,171,Fiber cut
+2026-05-18,17,BSNL,Solapur,32,Congestion
+2026-05-19,21,BSNL,Nagpur,32,Heavy rain
+2026-05-19,19,Airtel,Solapur,204,Fiber cut
+2026-05-20,14,BSNL,Nagpur,119,Tower fault
+2026-05-20,13,Jio,Nashik,33,Tower fault
+2026-05-20,21,Jio,Hyderabad,82,Tower fault
+2026-05-20,19,BSNL,Nashik,101,Power failure
+2026-05-20,9,BSNL,Hyderabad,159,Fiber cut
+2026-05-21,16,Airtel,Solapur,80,Power failure
+2026-05-21,4,BSNL,Nashik,184,Power failure
+2026-05-21,11,Jio,Delhi,20,Power failure
+2026-05-21,5,Vi,Nashik,77,Power failure
+2026-05-22,20,Airtel,Nagpur,166,Heavy rain
+2026-05-22,9,Airtel,Nashik,47,Tower fault
+2026-05-22,23,BSNL,Bengaluru,61,Tower fault
+2026-05-22,20,Vi,Mumbai,68,Power failure
+2026-05-22,8,Airtel,Hyderabad,214,Fiber cut
+2026-05-22,20,Airtel,Pune,47,Tower fault
+2026-05-24,2,Vi,Solapur,149,Heavy rain
+2026-05-24,10,Jio,Nashik,145,Fiber cut
+2026-05-25,21,Jio,Hyderabad,35,Power failure
+2026-05-26,23,Vi,Solapur,111,Heavy rain
+2026-05-26,18,Airtel,Mumbai,72,Power failure
+2026-05-26,13,Jio,Mumbai,26,Congestion
+2026-05-28,9,Vi,Bengaluru,109,Power failure
+2026-05-28,23,BSNL,Mumbai,344,Fiber cut
+2026-05-28,19,Jio,Bengaluru,48,Power failure
+2026-05-28,0,Jio,Mumbai,84,Heavy rain
+2026-05-28,14,BSNL,Delhi,24,Maintenance
+2026-05-29,9,BSNL,Solapur,149,Power failure
+2026-05-29,12,Jio,Mumbai,95,Heavy rain
+2026-05-29,19,Vi,Nagpur,106,Power failure
+2026-05-29,4,Airtel,Pune,52,Power failure
+2026-05-30,14,Jio,Nagpur,34,Maintenance
+2026-05-30,20,Jio,Bengaluru,7,Congestion
+2026-05-30,21,Vi,Nagpur,136,Fiber cut
+2026-05-30,10,Airtel,Hyderabad,22,Congestion
+2026-05-30,19,Airtel,Hyderabad,102,Fiber cut
+2026-05-31,2,Vi,Bengaluru,185,Heavy rain
+2026-06-01,16,Vi,Hyderabad,181,Fiber cut
+2026-06-01,20,Jio,Delhi,22,Congestion
+2026-06-01,12,Vi,Nashik,44,Maintenance
+2026-06-01,8,Vi,Mumbai,5,Heavy rain
+2026-06-01,9,Airtel,Nagpur,34,Power failure
+2026-06-02,8,Jio,Nagpur,199,Fiber cut
+2026-06-02,22,Airtel,Delhi,29,Tower fault
+2026-06-02,9,Jio,Nashik,52,Maintenance
+2026-06-02,7,Jio,Pune,241,Fiber cut
+2026-06-03,15,Vi,Pune,32,Maintenance
+2026-06-03,6,BSNL,Bengaluru,39,Congestion
+2026-06-03,9,Airtel,Hyderabad,48,Maintenance
+2026-06-03,4,Vi,Nagpur,41,Fiber cut
+2026-06-03,1,BSNL,Pune,88,Tower fault
+2026-06-04,13,Airtel,Mumbai,93,Tower fault
+2026-06-04,21,Vi,Nagpur,75,Power failure
+2026-06-04,23,BSNL,Solapur,146,Power failure
+2026-06-04,9,Jio,Hyderabad,220,Fiber cut
+2026-06-04,8,BSNL,Hyderabad,91,Tower fault
+2026-06-04,12,Vi,Pune,77,Tower fault
+2026-06-05,21,Airtel,Pune,86,Power failure
+2026-06-05,11,BSNL,Hyderabad,167,Power failure
+2026-06-05,22,Jio,Pune,57,Maintenance
+2026-06-05,14,BSNL,Bengaluru,57,Congestion
+2026-06-05,20,Jio,Nashik,141,Fiber cut
+2026-06-05,19,Airtel,Solapur,37,Maintenance
+2026-06-05,13,Jio,Hyderabad,53,Fiber cut
+2026-06-06,19,Jio,Nashik,55,Tower fault
+2026-06-06,19,Airtel,Delhi,194,Fiber cut
+2026-06-06,6,BSNL,Solapur,37,Tower fault
+2026-06-07,15,Jio,Delhi,80,Tower fault
+2026-06-07,19,Vi,Delhi,18,Maintenance
+2026-06-07,13,Jio,Nagpur,58,Maintenance
+2026-06-08,20,Vi,Pune,112,Fiber cut
+2026-06-08,7,Vi,Hyderabad,109,Power failure
+2026-06-09,16,BSNL,Nagpur,48,Maintenance
+2026-06-09,1,Airtel,Solapur,81,Power failure
+2026-06-09,18,BSNL,Nagpur,227,Power failure
+2026-06-10,7,BSNL,Hyderabad,48,Congestion
+2026-06-10,0,Airtel,Pune,159,Fiber cut
+2026-06-10,23,Jio,Bengaluru,243,Fiber cut
+2026-06-10,9,BSNL,Bengaluru,166,Power failure
+2026-06-11,9,BSNL,Solapur,117,Tower fault
+2026-06-11,6,BSNL,Hyderabad,180,Heavy rain
+2026-06-11,0,Airtel,Solapur,95,Power failure
+2026-06-11,16,Vi,Delhi,21,Congestion
+2026-06-11,19,Jio,Nashik,43,Maintenance
+2026-06-11,23,Jio,Delhi,245,Fiber cut
+2026-06-12,21,BSNL,Mumbai,111,Power failure
+2026-06-12,22,BSNL,Solapur,148,Power failure
+2026-06-12,10,Airtel,Delhi,104,Power failure
+2026-06-12,18,BSNL,Bengaluru,100,Power failure
+2026-06-13,19,Airtel,Delhi,21,Congestion
+2026-06-13,19,Vi,Bengaluru,49,Maintenance
+2026-06-13,22,Airtel,Delhi,73,Maintenance
+2026-06-13,9,Jio,Solapur,116,Fiber cut
+2026-06-14,4,Vi,Mumbai,50,Tower fault
+2026-06-14,9,BSNL,Hyderabad,141,Tower fault
+2026-06-15,6,Vi,Pune,230,Fiber cut
+2026-06-15,19,Vi,Mumbai,53,Tower fault
+2026-06-15,17,BSNL,Solapur,118,Power failure
+2026-06-15,14,Vi,Mumbai,184,Fiber cut
+2026-06-17,17,BSNL,Delhi,11,Congestion
+2026-06-17,15,Airtel,Hyderabad,33,Maintenance
+2026-06-19,23,Vi,Bengaluru,23,Congestion
+2026-06-19,23,Jio,Delhi,163,Fiber cut
+2026-06-19,1,BSNL,Mumbai,143,Power failure
+2026-06-19,20,Airtel,Mumbai,36,Maintenance
+2026-06-19,13,Airtel,Delhi,101,Tower fault
+2026-06-20,6,Vi,Pune,35,Maintenance
+2026-06-20,21,Airtel,Solapur,130,Power failure
+2026-06-20,11,Jio,Nagpur,68,Heavy rain
+2026-06-21,18,BSNL,Mumbai,55,Congestion
+2026-06-21,18,Airtel,Nagpur,200,Fiber cut
+2026-06-22,9,Airtel,Nagpur,87,Tower fault
+2026-06-22,16,Airtel,Hyderabad,153,Heavy rain
+2026-06-23,19,Airtel,Nashik,137,Fiber cut
+2026-06-23,16,BSNL,Nagpur,24,Congestion
+2026-06-23,22,Jio,Mumbai,93,Tower fault
+2026-06-24,10,BSNL,Mumbai,63,Maintenance
+2026-06-24,10,Airtel,Hyderabad,45,Maintenance
+2026-06-24,18,Airtel,Delhi,63,Tower fault
+2026-06-24,3,Vi,Pune,50,Fiber cut
+2026-06-25,8,Jio,Nashik,47,Tower fault
+2026-06-25,23,Jio,Solapur,84,Tower fault
+2026-06-25,14,Jio,Mumbai,279,Fiber cut
+2026-06-25,18,Airtel,Pune,60,Power failure
+2026-06-25,7,Jio,Pune,25,Fiber cut
+2026-06-25,23,Vi,Nagpur,119,Fiber cut
+2026-06-25,3,Jio,Pune,156,Fiber cut
+2026-06-26,9,Vi,Hyderabad,56,Maintenance
+2026-06-26,23,Airtel,Hyderabad,56,Maintenance
+2026-06-26,19,Vi,Pune,130,Power failure
+2026-06-26,23,BSNL,Bengaluru,23,Maintenance
+2026-06-26,14,Airtel,Solapur,64,Power failure
+2026-06-27,2,BSNL,Pune,59,Tower fault
+2026-06-29,21,Vi,Nagpur,54,Heavy rain
+2026-06-29,16,BSNL,Delhi,6,Heavy rain
+2026-06-29,22,Jio,Solapur,98,Fiber cut
+2026-06-29,16,BSNL,Pune,101,Power failure
+2026-06-30,10,Jio,Bengaluru,21,Tower fault
+2026-06-30,8,BSNL,Nagpur,85,Tower fault
+2026-06-30,15,Airtel,Nashik,70,Tower fault
+2026-06-30,2,Airtel,Nagpur,109,Power failure
+2026-06-30,7,Vi,Delhi,5,Tower fault
+2026-06-30,23,Vi,Solapur,23,Maintenance
+2026-06-30,21,Jio,Nagpur,54,Tower fault
+2026-06-30,16,Jio,Hyderabad,263,Fiber cut
+2026-07-01,8,Vi,Hyderabad,80,Power failure
+2026-07-01,3,Airtel,Nagpur,45,Tower fault
+2026-07-01,6,BSNL,Pune,28,Maintenance
+2026-07-01,21,Jio,Nagpur,119,Power failure
+2026-07-01,22,BSNL,Nashik,49,Tower fault
+2026-07-02,16,BSNL,Delhi,117,Tower fault
+2026-07-03,20,Jio,Solapur,92,Power failure
+2026-07-03,11,BSNL,Bengaluru,36,Tower fault
+2026-07-03,23,Jio,Delhi,44,Tower fault
+2026-07-03,15,BSNL,Solapur,33,Congestion
+2026-07-03,15,Airtel,Bengaluru,132,Heavy rain
+2026-07-03,23,Airtel,Delhi,47,Maintenance
+2026-07-04,3,Airtel,Pune,48,Tower fault
+2026-07-04,19,Vi,Solapur,135,Fiber cut
+2026-07-04,19,Airtel,Bengaluru,72,Tower fault
+2026-07-04,0,Jio,Delhi,147,Power failure
+2026-07-04,6,Jio,Bengaluru,136,Fiber cut
+2026-07-05,16,Vi,Delhi,205,Fiber cut
+2026-07-05,3,Airtel,Delhi,116,Heavy rain
+2026-07-06,21,Vi,Delhi,32,Congestion
+2026-07-06,19,Airtel,Delhi,13,Maintenance
+2026-07-07,20,BSNL,Hyderabad,89,Tower fault
+2026-07-07,17,Vi,Bengaluru,50,Maintenance
+2026-07-08,7,BSNL,Delhi,59,Maintenance
+2026-07-08,21,Airtel,Delhi,153,Power failure
+2026-07-08,14,Vi,Nashik,81,Power failure
+2026-07-08,22,Airtel,Pune,130,Power failure
+2026-07-08,20,Jio,Delhi,121,Heavy rain
+2026-07-09,19,Jio,Mumbai,215,Fiber cut
+2026-07-09,8,Vi,Nashik,33,Power failure
+2026-07-09,21,Vi,Mumbai,74,Maintenance
+2026-07-10,14,Jio,Bengaluru,44,Maintenance
+2026-07-10,18,BSNL,Solapur,6,Heavy rain
+2026-07-10,23,Airtel,Nashik,91,Power failure
+2026-07-11,19,BSNL,Hyderabad,20,Congestion
+2026-07-12,6,Jio,Hyderabad,166,Power failure
+2026-07-12,18,BSNL,Pune,67,Tower fault
+2026-07-12,20,Vi,Mumbai,131,Power failure
+2026-07-12,22,Jio,Bengaluru,147,Heavy rain
+2026-07-13,3,BSNL,Delhi,42,Tower fault
+2026-07-13,12,BSNL,Delhi,97,Heavy rain
+2026-07-13,13,Jio,Nagpur,62,Tower fault
+2026-07-13,17,BSNL,Nashik,45,Maintenance
+2026-07-14,4,Jio,Hyderabad,118,Power failure
+2026-07-14,10,Jio,Nagpur,132,Heavy rain
+2026-07-14,10,Airtel,Hyderabad,60,Maintenance
+2026-07-14,12,Airtel,Delhi,38,Tower fault
+2026-07-14,14,BSNL,Nagpur,14,Maintenance
+2026-07-14,3,Airtel,Mumbai,21,Maintenance
+2026-07-14,19,Vi,Pune,77,Fiber cut
+2026-07-14,21,Jio,Nashik,156,Fiber cut
+2026-07-14,11,Jio,Pune,85,Maintenance
+2026-07-15,18,BSNL,Mumbai,104,Power failure
+2026-07-15,17,BSNL,Delhi,127,Power failure
+2026-07-15,13,Jio,Bengaluru,44,Tower fault
+2026-07-16,15,BSNL,Nagpur,58,Maintenance
+2026-07-16,21,Jio,Pune,9,Power failure
+2026-07-16,13,Jio,Hyderabad,99,Tower fault
+2026-07-16,21,Jio,Mumbai,99,Power failure
+2026-07-16,18,Vi,Mumbai,70,Tower fault
+2026-07-17,13,Jio,Bengaluru,49,Tower fault
+2026-07-17,12,Airtel,Delhi,123,Heavy rain
+2026-07-17,6,Airtel,Nagpur,29,Tower fault
+2026-07-17,5,Airtel,Pune,57,Power failure
+2026-07-18,7,Vi,Pune,76,Tower fault
+2026-07-19,11,Jio,Mumbai,72,Power failure
+2026-07-19,21,Vi,Bengaluru,92,Power failure
+2026-07-19,7,Vi,Mumbai,73,Tower fault
+2026-07-19,15,Airtel,Nagpur,224,Fiber cut
+2026-07-19,9,Jio,Solapur,18,Congestion
+2026-07-20,5,BSNL,Nashik,29,Congestion
+2026-07-20,14,Jio,Nagpur,153,Fiber cut
+2026-07-20,17,Airtel,Hyderabad,107,Tower fault
+2026-07-20,3,Vi,Mumbai,92,Power failure
+2026-07-21,12,BSNL,Hyderabad,42,Fiber cut
+2026-07-21,23,Vi,Mumbai,90,Power failure
+2026-07-21,6,Jio,Bengaluru,71,Fiber cut
+2026-07-21,20,BSNL,Nashik,172,Fiber cut
+2026-07-21,18,BSNL,Nagpur,156,Power failure
+2026-07-21,15,Vi,Solapur,200,Fiber cut
+2026-07-22,10,Vi,Nashik,39,Power failure
+2026-07-22,11,Airtel,Mumbai,152,Fiber cut
+2026-07-22,15,BSNL,Bengaluru,88,Heavy rain
+2026-07-22,20,Jio,Nashik,67,Tower fault
+2026-07-23,23,Airtel,Pune,110,Fiber cut
+2026-07-23,20,Jio,Nashik,81,Tower fault
+2026-07-23,4,Vi,Pune,17,Power failure
+2026-07-24,12,Airtel,Bengaluru,150,Heavy rain
+2026-07-24,23,BSNL,Nagpur,42,Maintenance
+2026-07-24,19,BSNL,Hyderabad,88,Tower fault
+2026-07-25,15,BSNL,Pune,59,Heavy rain
+2026-07-25,3,Jio,Mumbai,80,Tower fault
+2026-07-25,2,Vi,Bengaluru,202,Fiber cut
+2026-07-26,21,Vi,Delhi,10,Tower fault
+2026-07-27,19,Jio,Hyderabad,66,Maintenance
+2026-07-27,0,Vi,Bengaluru,90,Fiber cut
+2026-07-27,10,BSNL,Delhi,131,Power failure
+2026-07-27,21,BSNL,Nagpur,96,Power failure
+2026-07-27,18,Airtel,Delhi,79,Power failure
+2026-07-27,17,Jio,Mumbai,56,Tower fault
+2026-07-28,11,Jio,Nagpur,77,Power failure
+2026-07-28,15,Airtel,Solapur,134,Fiber cut
+2026-07-29,1,BSNL,Nagpur,52,Power failure
+2026-07-29,16,Vi,Nagpur,253,Fiber cut
+2026-07-30,22,BSNL,Pune,208,Power failure
+2026-07-30,1,Airtel,Nagpur,32,Tower fault
+2026-07-30,18,Airtel,Delhi,138,Power failure
+2026-07-31,13,Airtel,Bengaluru,116,Power failure
+2026-07-31,14,Airtel,Pune,117,Power failure
+2026-07-31,22,Airtel,Hyderabad,87,Tower fault
+2026-07-31,20,Jio,Mumbai,114,Heavy rain
+2026-08-01,12,Jio,Pune,161,Fiber cut
+2026-08-01,21,Vi,Pune,41,Maintenance
+2026-08-01,13,Vi,Nagpur,52,Maintenance
+2026-08-02,19,BSNL,Delhi,107,Tower fault
+2026-08-04,21,Jio,Hyderabad,162,Power failure
+2026-08-04,16,Jio,Solapur,121,Power failure
+2026-08-04,12,Jio,Mumbai,47,Maintenance
+2026-08-04,14,BSNL,Mumbai,61,Tower fault
+2026-08-05,23,Vi,Mumbai,143,Fiber cut
+2026-08-05,21,Airtel,Solapur,68,Power failure
+2026-08-05,22,Vi,Bengaluru,121,Fiber cut
+2026-08-05,15,Jio,Mumbai,48,Power failure
+2026-08-06,19,BSNL,Nashik,52,Tower fault
+2026-08-06,3,Airtel,Nashik,156,Heavy rain
+2026-08-06,18,Vi,Bengaluru,59,Heavy rain
+2026-08-07,17,Vi,Mumbai,81,Tower fault
+2026-08-07,12,Vi,Bengaluru,89,Power failure
+2026-08-08,18,BSNL,Solapur,171,Fiber cut
+2026-08-08,6,Jio,Hyderabad,117,Heavy rain
+2026-08-08,21,BSNL,Bengaluru,29,Power failure
+2026-08-08,11,Jio,Bengaluru,180,Fiber cut
+2026-08-08,13,BSNL,Mumbai,123,Tower fault
+2026-08-09,12,Airtel,Pune,130,Power failure
+2026-08-09,20,BSNL,Nashik,140,Fiber cut
+2026-08-09,6,BSNL,Nashik,94,Fiber cut
+2026-08-09,4,Airtel,Delhi,129,Tower fault
+2026-08-09,21,Vi,Hyderabad,253,Fiber cut
+2026-08-09,16,Airtel,Solapur,91,Heavy rain
+2026-08-09,21,BSNL,Hyderabad,169,Fiber cut
+2026-08-10,11,Airtel,Delhi,50,Tower fault
+2026-08-11,6,Vi,Hyderabad,139,Power failure
+2026-08-11,12,BSNL,Solapur,178,Power failure
+2026-08-11,7,Vi,Delhi,73,Maintenance
+2026-08-11,23,BSNL,Nagpur,59,Maintenance
+2026-08-11,10,Jio,Hyderabad,117,Tower fault
+2026-08-11,10,Jio,Mumbai,114,Power failure
+2026-08-11,6,Airtel,Mumbai,73,Tower fault
+2026-08-11,18,Airtel,Pune,18,Power failure
+2026-08-11,3,Jio,Mumbai,59,Tower fault
+2026-08-11,11,Jio,Pune,43,Power failure
+2026-08-11,13,BSNL,Hyderabad,123,Fiber cut
+2026-08-11,17,Airtel,Bengaluru,29,Maintenance
+2026-08-11,17,Vi,Nagpur,65,Power failure
+2026-08-12,19,Airtel,Pune,161,Fiber cut
+2026-08-13,23,Jio,Mumbai,41,Power failure
+2026-08-13,23,Jio,Mumbai,144,Fiber cut
+2026-08-13,7,BSNL,Delhi,109,Heavy rain
+2026-08-13,19,Jio,Hyderabad,138,Heavy rain
+2026-08-13,22,BSNL,Nagpur,75,Power failure
+2026-08-13,9,Airtel,Hyderabad,69,Tower fault
+2026-08-14,4,BSNL,Hyderabad,136,Heavy rain
+2026-08-14,11,BSNL,Pune,158,Power failure
+2026-08-14,16,BSNL,Solapur,87,Maintenance
+2026-08-14,2,BSNL,Delhi,102,Tower fault
+2026-08-15,18,Airtel,Hyderabad,28,Congestion
+2026-08-15,20,Vi,Nagpur,30,Power failure
+2026-08-15,11,Airtel,Nagpur,80,Heavy rain
+2026-08-15,9,BSNL,Nagpur,159,Fiber cut
+2026-08-16,12,Airtel,Bengaluru,116,Power failure
+2026-08-16,21,Jio,Pune,148,Power failure
+2026-08-17,20,Jio,Nashik,198,Fiber cut
+2026-08-17,22,Airtel,Mumbai,192,Fiber cut
+2026-08-17,7,Jio,Hyderabad,50,Tower fault
+2026-08-17,22,Vi,Delhi,28,Maintenance
+2026-08-17,18,Jio,Bengaluru,124,Fiber cut
+2026-08-17,19,Jio,Solapur,173,Power failure
+2026-08-18,6,Jio,Nagpur,25,Power failure
+2026-08-18,9,Airtel,Nashik,33,Maintenance
+2026-08-19,23,BSNL,Solapur,54,Tower fault
+2026-08-19,14,Jio,Hyderabad,15,Tower fault
+2026-08-19,14,Jio,Pune,26,Maintenance
+2026-08-19,23,Jio,Nashik,81,Tower fault
+2026-08-20,16,Jio,Mumbai,30,Maintenance
+2026-08-21,3,Jio,Nashik,46,Maintenance
+2026-08-21,20,Jio,Mumbai,40,Tower fault
+2026-08-21,22,Airtel,Hyderabad,234,Fiber cut
+2026-08-21,7,Jio,Bengaluru,111,Power failure
+2026-08-22,2,BSNL,Solapur,122,Power failure
+2026-08-22,19,BSNL,Nashik,27,Congestion
+2026-08-23,6,Airtel,Delhi,213,Fiber cut
+2026-08-23,1,BSNL,Pune,70,Maintenance
+2026-08-23,17,Jio,Nashik,60,Power failure
+2026-08-23,18,BSNL,Pune,42,Maintenance
+2026-08-23,6,Jio,Bengaluru,29,Congestion
+2026-08-23,19,BSNL,Hyderabad,52,Congestion
+2026-08-23,17,Airtel,Mumbai,87,Power failure
+2026-08-23,3,Vi,Pune,83,Power failure
+2026-08-24,12,BSNL,Delhi,94,Power failure
+2026-08-24,22,BSNL,Solapur,260,Fiber cut
+2026-08-24,0,BSNL,Solapur,183,Power failure
+2026-08-25,7,Jio,Bengaluru,87,Power failure
+2026-08-25,2,BSNL,Pune,166,Power failure
+2026-08-26,22,Airtel,Nagpur,20,Tower fault
+2026-08-26,15,Airtel,Nagpur,129,Fiber cut
+2026-08-26,19,Airtel,Delhi,29,Congestion
+2026-08-26,13,Vi,Pune,57,Power failure
+2026-08-28,19,BSNL,Nashik,93,Fiber cut
+2026-08-28,10,BSNL,Mumbai,145,Heavy rain
+2026-08-28,23,Vi,Hyderabad,91,Heavy rain
+2026-08-28,4,Vi,Pune,68,Heavy rain
+2026-08-29,10,Jio,Solapur,180,Fiber cut
+2026-08-29,12,Airtel,Delhi,17,Congestion
+2026-08-29,1,Airtel,Solapur,106,Fiber cut
+2026-08-29,2,Vi,Delhi,74,Heavy rain
+2026-08-29,16,Jio,Mumbai,168,Fiber cut
+2026-08-29,19,Jio,Delhi,98,Power failure
+2026-08-30,5,BSNL,Mumbai,187,Fiber cut
+2026-08-30,1,Vi,Pune,168,Fiber cut
+2026-08-31,19,Jio,Bengaluru,103,Power failure
+2026-09-02,16,Airtel,Hyderabad,22,Congestion
+2026-09-02,11,Vi,Mumbai,24,Congestion
+2026-09-02,3,BSNL,Bengaluru,59,Maintenance
+2026-09-02,20,Jio,Bengaluru,71,Maintenance
+2026-09-02,10,Vi,Delhi,26,Congestion
+2026-09-03,21,Vi,Solapur,74,Power failure
+2026-09-03,18,Vi,Delhi,32,Congestion
+2026-09-03,16,BSNL,Pune,211,Fiber cut
+2026-09-03,8,Jio,Delhi,51,Maintenance
+2026-09-03,17,Vi,Bengaluru,142,Power failure
+2026-09-04,20,Airtel,Nagpur,27,Congestion
+2026-09-04,17,Airtel,Mumbai,63,Maintenance
+2026-09-04,6,BSNL,Solapur,117,Tower fault
+2026-09-04,13,Airtel,Nagpur,55,Tower fault
+2026-09-05,10,Airtel,Mumbai,106,Power failure
+2026-09-05,12,Airtel,Mumbai,78,Fiber cut
+2026-09-05,19,BSNL,Hyderabad,110,Tower fault
+2026-09-05,23,Jio,Mumbai,74,Maintenance
+2026-09-06,5,Airtel,Nashik,109,Fiber cut
+2026-09-06,17,BSNL,Bengaluru,41,Fiber cut
+2026-09-06,19,Vi,Nashik,105,Heavy rain
+2026-09-06,22,BSNL,Pune,94,Heavy rain
+2026-09-07,16,Jio,Bengaluru,80,Power failure
+2026-09-07,16,Airtel,Hyderabad,8,Maintenance
+2026-09-08,0,BSNL,Solapur,135,Tower fault
+2026-09-08,11,Airtel,Nagpur,42,Maintenance
+2026-09-08,10,Airtel,Mumbai,72,Tower fault
+2026-09-09,14,Airtel,Nagpur,59,Maintenance
+2026-09-09,4,Vi,Mumbai,79,Tower fault
+2026-09-09,13,Airtel,Delhi,153,Fiber cut
+2026-09-10,14,Vi,Nashik,18,Tower fault
+2026-09-10,23,BSNL,Nagpur,96,Tower fault
+2026-09-10,18,BSNL,Pune,20,Congestion
+2026-09-10,8,Jio,Pune,117,Power failure
+2026-09-10,9,Airtel,Solapur,36,Tower fault
+2026-09-11,10,BSNL,Hyderabad,295,Fiber cut
+2026-09-12,21,Vi,Solapur,75,Heavy rain
+2026-09-12,20,Airtel,Bengaluru,106,Power failure
+2026-09-12,21,Vi,Nashik,107,Power failure
+2026-09-13,18,Jio,Hyderabad,61,Tower fault
+2026-09-13,17,Vi,Delhi,108,Power failure
+2026-09-13,16,BSNL,Solapur,75,Maintenance
+2026-09-13,13,Jio,Nagpur,51,Tower fault
+2026-09-13,14,BSNL,Delhi,167,Power failure
+2026-09-13,14,BSNL,Hyderabad,80,Fiber cut
+2026-09-13,20,Airtel,Solapur,141,Fiber cut
+2026-09-14,20,BSNL,Bengaluru,146,Tower fault
+2026-09-14,15,Jio,Nashik,56,Power failure
+2026-09-15,16,Airtel,Nashik,28,Maintenance
+2026-09-16,6,Airtel,Mumbai,76,Tower fault
+2026-09-17,8,Vi,Hyderabad,5,Power failure
+2026-09-17,21,Airtel,Nashik,51,Tower fault
+2026-09-17,18,Vi,Pune,161,Heavy rain
+2026-09-17,13,BSNL,Hyderabad,79,Tower fault
+2026-09-18,20,Airtel,Mumbai,157,Fiber cut
+2026-09-18,7,Vi,Nashik,49,Power failure
+2026-09-18,14,Jio,Hyderabad,109,Tower fault
+2026-09-19,5,BSNL,Bengaluru,93,Tower fault
+2026-09-19,12,Jio,Pune,72,Tower fault
+2026-09-19,9,BSNL,Mumbai,72,Tower fault
+2026-09-19,10,BSNL,Nashik,81,Tower fault
+2026-09-19,17,Airtel,Nashik,120,Heavy rain
+2026-09-19,18,Jio,Bengaluru,20,Maintenance
+2026-09-20,6,Airtel,Mumbai,15,Fiber cut
+2026-09-20,13,Airtel,Solapur,63,Tower fault
+2026-09-20,6,Airtel,Hyderabad,69,Power failure
+2026-09-20,1,Jio,Mumbai,79,Power failure
+2026-09-21,13,BSNL,Hyderabad,53,Congestion
+2026-09-21,6,Airtel,Mumbai,79,Tower fault
+2026-09-21,20,Vi,Hyderabad,172,Heavy rain
+2026-09-22,23,Vi,Nashik,92,Tower fault
+2026-09-22,21,Airtel,Pune,51,Maintenance
+2026-09-22,21,Jio,Solapur,45,Tower fault
+2026-09-23,6,Airtel,Solapur,194,Heavy rain
+2026-09-23,19,Airtel,Mumbai,96,Tower fault
+2026-09-24,11,BSNL,Solapur,75,Maintenance
+2026-09-24,14,Airtel,Hyderabad,149,Heavy rain
+2026-09-24,23,BSNL,Hyderabad,42,Maintenance
+2026-09-24,18,Jio,Nagpur,73,Heavy rain
+2026-09-25,4,BSNL,Bengaluru,89,Heavy rain
+2026-09-25,18,Airtel,Hyderabad,114,Power failure
+2026-09-26,22,Jio,Bengaluru,113,Power failure
+2026-09-26,9,Airtel,Nagpur,97,Tower fault
+2026-09-26,22,BSNL,Mumbai,269,Fiber cut
+2026-09-26,4,BSNL,Solapur,143,Fiber cut
+2026-09-27,4,Airtel,Hyderabad,83,Heavy rain
+2026-09-27,9,Jio,Mumbai,50,Power failure
+2026-09-27,9,Jio,Mumbai,143,Fiber cut
+2026-09-27,18,Vi,Bengaluru,45,Maintenance
+2026-09-27,1,Vi,Bengaluru,69,Tower fault
+2026-09-28,0,Airtel,Nashik,68,Tower fault
+2026-09-28,19,Vi,Pune,87,Tower fault
+2026-09-28,21,Jio,Nagpur,54,Tower fault
+2026-09-29,6,Jio,Delhi,49,Tower fault
+2026-09-29,8,Vi,Solapur,61,Power failure
+2026-09-29,12,Airtel,Pune,52,Tower fault
+2026-09-29,23,Airtel,Nashik,9,Power failure
+2026-09-30,10,Jio,Solapur,72,Tower fault
+2026-09-30,21,Vi,Nashik,173,Fiber cut
+2026-09-30,18,Vi,Solapur,126,Power failure
+2026-09-30,19,Airtel,Pune,40,Tower fault
+2026-10-01,13,Vi,Pune,74,Heavy rain
+2026-10-01,7,BSNL,Bengaluru,110,Power failure
+2026-10-01,11,Vi,Bengaluru,45,Tower fault
+2026-10-01,3,Airtel,Nagpur,72,Maintenance
+2026-10-02,16,Airtel,Bengaluru,98,Power failure
+2026-10-02,6,Vi,Delhi,5,Congestion
+2026-10-03,19,Jio,Bengaluru,76,Power failure
+2026-10-03,20,Airtel,Nashik,16,Tower fault
+2026-10-03,13,Airtel,Hyderabad,41,Power failure
+2026-10-03,15,Airtel,Nashik,179,Fiber cut
+2026-10-03,7,BSNL,Nagpur,83,Tower fault
+2026-10-04,9,Jio,Mumbai,42,Congestion
+2026-10-04,21,BSNL,Pune,83,Tower fault
+2026-10-04,11,Jio,Bengaluru,45,Maintenance
+2026-10-04,19,BSNL,Pune,131,Fiber cut
+2026-10-04,15,Jio,Pune,60,Tower fault
+2026-10-05,14,BSNL,Solapur,84,Maintenance
+2026-10-05,23,Vi,Delhi,132,Power failure
+2026-10-06,8,BSNL,Nagpur,254,Fiber cut
+2026-10-06,16,Airtel,Delhi,11,Congestion
+2026-10-07,13,Jio,Solapur,41,Tower fault
+2026-10-07,10,Vi,Solapur,90,Tower fault
+2026-10-07,7,BSNL,Nagpur,78,Tower fault
+2026-10-07,10,Airtel,Mumbai,34,Maintenance
+2026-10-07,23,BSNL,Hyderabad,80,Power failure
+2026-10-08,14,Vi,Bengaluru,142,Heavy rain
+2026-10-08,21,Airtel,Nashik,106,Heavy rain
+2026-10-09,11,Airtel,Bengaluru,19,Congestion
+2026-10-09,23,Vi,Mumbai,125,Power failure
+2026-10-10,5,Vi,Delhi,101,Heavy rain
+2026-10-10,18,Airtel,Mumbai,143,Heavy rain
+2026-10-10,10,BSNL,Nashik,80,Power failure
+2026-10-11,23,BSNL,Bengaluru,106,Tower fault
+2026-10-11,14,BSNL,Nashik,150,Fiber cut
+2026-10-11,21,Vi,Mumbai,34,Tower fault
+2026-10-12,18,BSNL,Delhi,195,Fiber cut
+2026-10-13,12,Vi,Bengaluru,25,Congestion
+2026-10-13,1,Vi,Bengaluru,150,Heavy rain
+2026-10-14,16,Airtel,Delhi,104,Power failure
+2026-10-15,17,BSNL,Solapur,106,Tower fault
+2026-10-15,13,Vi,Delhi,72,Heavy rain
+2026-10-16,18,BSNL,Solapur,31,Heavy rain
+2026-10-16,1,Vi,Hyderabad,88,Heavy rain
+2026-10-16,20,Vi,Pune,29,Congestion
+2026-10-17,8,BSNL,Nagpur,29,Congestion
+2026-10-17,18,Vi,Delhi,24,Maintenance
+2026-10-17,1,BSNL,Delhi,119,Power failure
+2026-10-17,22,Airtel,Mumbai,35,Maintenance
+2026-10-18,22,Jio,Nagpur,106,Heavy rain
+2026-10-18,17,Airtel,Hyderabad,52,Maintenance
+2026-10-18,2,Airtel,Bengaluru,42,Power failure
+2026-10-18,15,Vi,Solapur,47,Congestion
+2026-10-20,17,Airtel,Mumbai,45,Maintenance
+2026-10-20,18,Vi,Solapur,120,Fiber cut
+2026-10-20,12,Vi,Nashik,13,Heavy rain
+2026-10-20,17,BSNL,Hyderabad,36,Fiber cut
+2026-10-21,19,Airtel,Nashik,27,Fiber cut
+2026-10-21,13,Jio,Solapur,16,Congestion
+2026-10-21,16,BSNL,Nashik,120,Tower fault
+2026-10-21,17,Airtel,Pune,5,Power failure
+2026-10-21,6,BSNL,Nagpur,234,Fiber cut
+2026-10-21,21,Jio,Pune,68,Maintenance
+2026-10-21,19,Airtel,Nashik,38,Congestion
+2026-10-22,16,BSNL,Bengaluru,262,Fiber cut
+2026-10-23,9,BSNL,Pune,131,Power failure
+2026-10-23,18,BSNL,Bengaluru,20,Tower fault
+2026-10-23,18,Jio,Delhi,40,Maintenance
+2026-10-23,12,BSNL,Bengaluru,32,Maintenance
+2026-10-24,23,Jio,Nashik,69,Heavy rain
+2026-10-24,12,BSNL,Mumbai,15,Congestion
+2026-10-24,7,Vi,Solapur,129,Tower fault
+2026-10-25,15,Jio,Pune,80,Power failure
+2026-10-26,18,BSNL,Mumbai,232,Fiber cut
+2026-10-26,15,BSNL,Nagpur,20,Maintenance
+2026-10-27,23,BSNL,Bengaluru,133,Heavy rain
+2026-10-27,16,Jio,Mumbai,61,Fiber cut
+2026-10-27,4,BSNL,Mumbai,78,Maintenance
+2026-10-27,21,Airtel,Nashik,130,Power failure
+2026-10-27,2,Jio,Pune,50,Maintenance
+2026-10-27,9,Airtel,Mumbai,101,Fiber cut
