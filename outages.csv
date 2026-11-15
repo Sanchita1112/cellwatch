@@ -1,0 +1,6 @@
+date,operator,city,duration_minutes,cause
+2026-11-01,Jio,Solapur,45,Power failure
+2026-11-02,Airtel,Pune,120,Fiber cut
+2026-11-03,Vi,Mumbai,30,Tower fault
+2026-11-04,Jio,Pune,60,Maintenance
+2026-11-05,BSNL,Solapur,200,Fiber cut
